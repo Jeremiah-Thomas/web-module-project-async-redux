@@ -1,12 +1,9 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
+import AgePrediction from "./components/AgePrediction";
 
 function App() {
-  return (
-    <div className="App">
-      Async Redux Project
-    </div>
-  );
+  return <AgePrediction />;
 }
 
 export default App;
